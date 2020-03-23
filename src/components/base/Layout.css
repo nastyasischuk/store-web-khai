@@ -1,0 +1,33 @@
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.main {
+    grid-area: main;
+}
+
+.grid-container-main {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 14fr 1.7fr;
+    grid-column-gap: 5px;
+    margin: 0;
+}
+
+.color-container-1 {
+    border: 3px solid #282c34;
+    margin: 5px;
+}
+
+/*title footer*/
+.title-header {
+    font-family: Tahoma;
+    font-size:40px  ;
+    text-align: center;
+}
