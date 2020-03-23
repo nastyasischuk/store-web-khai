@@ -15,9 +15,11 @@
 
 .footer {
     grid-area: footer;
-
+    background-color: #f9f4f1;
 }
-
+.footer p{
+    background-color: #f9f4f1;
+}
 .main {
     grid-area: main;
 }
