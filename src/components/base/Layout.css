@@ -1,9 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+*{
+    background-color: #ffffff;
+}
+
 .header {
     grid-area: header;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 0.2fr 0.7fr;
+    align-items: end;
 }
 
 .footer {
     grid-area: footer;
+
 }
 
 .main {
@@ -15,7 +27,7 @@
     grid-template-areas: "header" "main" "footer";
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 14fr 1.7fr;
+    grid-template-rows: 1.2fr 14fr 1.7fr;
     grid-column-gap: 5px;
     margin: 0;
 }
@@ -27,7 +39,10 @@
 
 /*title footer*/
 .title-header {
-    font-family: Tahoma;
-    font-size:40px  ;
+    font-family: 'Playfair Display SC', serif;
+    font-size:46px  ;
     text-align: center;
+    font-weight: 300;
+    grid-row: 1;
+
 }
