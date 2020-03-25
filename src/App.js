@@ -5,8 +5,9 @@ import FullApp from "./components/base/FullApp";
 
 function App() {
     return (
-        <Router baseName="/MakeUp/">
-            <FullApp/> </Router>
+        <Router path="/MakeUp/" exact>
+            <FullApp/>
+        </Router>
     );
 }
 

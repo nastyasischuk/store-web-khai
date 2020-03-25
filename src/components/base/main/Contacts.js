@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-
+import './BasicMain.css'
 
 class Contacts extends Component {
     render() {
         return (
             <div className=" color-container-1">
-                <p>Contacts</p>
+                <p className="title-main">Contacts</p>
             </div>
         );
     }

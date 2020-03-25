@@ -8,6 +8,8 @@ import Catalog from "./main/Catalog";
 import Gallery from "./main/Gallery";
 import Registration from "./main/Registration";
 import Articles from "./main/Articles";
+import ArticleItemWhole from "./main/articles/ArticleItemWhole";
+import ArticleItemShort from "./main/articles/ArticleItemShort";
 
 
 
@@ -34,6 +36,9 @@ class FullApp extends Component {
                 <Route path="/contacts">
                     <Contacts/>
                 </Route>
+                <Route path={"/article"}>
+                    <ArticleItemWhole/>
+                </Route>
             </div>
             <Footer>
 
@@ -42,6 +47,4 @@ class FullApp extends Component {
     }
 }
 
-const MainRoutes = ()=>{
-}
 export default FullApp
