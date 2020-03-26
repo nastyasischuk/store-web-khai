@@ -5,6 +5,28 @@ class Catalog extends Component {
         return (
             <div className=" color-container-1">
                 <p className="title-main">Catalog</p>
+                <div className={"catalog-list"}>
+                <h3>Make up</h3>
+                <ul>
+                    <li>Eyes</li>
+                    <li>Brows</li>
+                    <li>Skin</li>
+                    <li>Lips</li>
+                    <li>Eyelashes</li>
+                </ul>
+                <h3>Perfumes</h3>
+                <ul>
+                    <li>Women</li>
+                    <li>Men</li>
+                    <li>Children's </li>
+                </ul>
+                <h3>Accessories</h3>
+                <ul>
+                    <li>For hair</li>
+                    <li>For makeup</li>
+                    <li>Other</li>
+                </ul>
+                </div>
             </div>
         );
     }
