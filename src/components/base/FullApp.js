@@ -30,15 +30,14 @@ class FullApp extends Component {
                 <Route path="/registration">
                     <Registration/>
                 </Route>
-                <Route path="/articles">
+                <Route exact path="/articles">
                     <Articles/>
                 </Route>
                 <Route path="/contacts">
                     <Contacts/>
                 </Route>
-                <Route path={"/article"}>
-                    <ArticleItemWhole/>
-                </Route>
+                <Route path='/articles/:id' component={ArticleItemWhole}/>
+
             </div>
             <Footer>
 

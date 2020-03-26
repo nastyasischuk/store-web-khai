@@ -21,7 +21,7 @@ class ArticleList extends Component {
     }
     render() {
         return (
-            <div className="color-container-1">
+            <div className="all-articles-wrapper">
                 {this.getArticles()}
             </div>
         );

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import '../BasicMain.css'
-import {NavLink, Redirect} from "react-router-dom";
+import {Link, NavLink, Redirect} from "react-router-dom";
 import './Articles.css'
 
 class ArticleItemShort extends Component {
@@ -8,7 +8,6 @@ class ArticleItemShort extends Component {
         super(props);
         this.state = {
             toArticle: false,
-            articleId: 0
         }
         this.goToArticle = this.goToArticle.bind(this);
     }
@@ -27,10 +26,15 @@ class ArticleItemShort extends Component {
             }}  />
         }
         return (
-            <div className="article-items color-container-1">
-                <p className={"title-article"}>{this.props.articleName}</p>
-                <div className={"short-desc"}>{this.props.desc}</div>
-                <div className={"link-article-1"} onClick={event => this.goToArticle(event)}><p>read further</p></div>
+            <div className="article-items">
+                <p className={"title-article short-article-title"}>{this.props.articleName}</p>
+                <div className={"short-article-text"}>{this.props.desc}</div>
+                <Link exact className={"link-article-1"} to={{
+                    pathname: `/articles/${this.props.articleId}`,
+                    state: {
+                        articleId: this.props.articleId
+                    }
+                }}><p>read further</p></Link>
                 <div><p>Go to comments</p></div>
             </div>
         );
