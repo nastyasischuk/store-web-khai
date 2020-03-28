@@ -6,7 +6,7 @@ import {Route,useRouteMatch} from "react-router-dom";
 import Contacts from "./main/Contacts";
 import Catalog from "./main/Catalog";
 import Gallery from "./main/Gallery";
-import Registration from "./main/Registration";
+import Registration from "./main/registration/Registration";
 import Articles from "./main/Articles";
 import ArticleItemWhole from "./main/articles/ArticleItemWhole";
 import ArticleItemShort from "./main/articles/ArticleItemShort";
