@@ -34,7 +34,7 @@ class ArticleItemShort extends Component {
                     state: {
                         articleId: this.props.articleId
                     }
-                }}><p>read further</p></Link>
+                }}>>>>read further</Link>
                 <div><p>Go to comments</p></div>
             </div>
         );
