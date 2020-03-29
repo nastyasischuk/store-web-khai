@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import {Route,useRouteMatch} from "react-router-dom";
 import Contacts from "./main/contacts/Contacts";
 import Catalog from "./main/Catalog";
-import Gallery from "./main/Gallery";
+import Gallery from "./main/gallery/Gallery";
 import Registration from "./main/registration/Registration";
 import Articles from "./main/Articles";
 import ArticleItemWhole from "./main/articles/ArticleItemWhole";
