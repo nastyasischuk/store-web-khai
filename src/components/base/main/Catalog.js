@@ -11,7 +11,7 @@ class Catalog extends Component {
                     <li>Eyes</li>
                     <li>Brows</li>
                     <li>Skin</li>
-                    <li>Lips</li>
+                    <li>Lips<sup>new</sup></li>
                     <li>Eyelashes</li>
                 </ul>
                 <h3>Perfumes</h3>
@@ -20,7 +20,7 @@ class Catalog extends Component {
                     <li>Men</li>
                     <li>Children's </li>
                 </ul>
-                <h3>Accessories</h3>
+                <h3>Accessories<sup>new</sup></h3>
                 <ul>
                     <li>For hair</li>
                     <li>For makeup</li>
